@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+}
+
+form {
+    margin: 2em auto 2em auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: bisque;
+    padding: 1em 0 1em;
+    box-shadow:0 0 5px inset black;
+}
+
+form div.field {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 98%;
+    padding: 0.5em 0 0.5em;
+}
+
+form div.field label {
+    font-weight: bolder;
+    margin: 0 auto 0 auto;
+    display: block;
+    padding: 1.5em 0 1em;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+form div.field input {
+    font-size: 1.2em;
+    margin: 0 auto 0 auto;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 1em 0 1em;
+    background: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+@media (max-width:1020px) {
+    form {
+        width: 90%;
+    }
+}
